@@ -1,0 +1,5 @@
+.nav-link.active{
+    color:white!important;
+    background-color: rgb(6, 191, 191)!important;
+    border-radius: 10px;
+}
