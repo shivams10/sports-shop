@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Basket Ball",
+    "price": 1000,
+    "imgUrl": "https://st2.depositphotos.com/4914465/12456/i/950/depositphotos_124565296-stock-photo-basketball-ball-over-white-background.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cricket Bat",
+    "price": 1500,
+    "imgUrl": "https://m.media-amazon.com/images/I/314oZ9xegoL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carrom",
+    "price": 200.05,
+    "imgUrl": "https://3aceinternational.com/wp-content/uploads/2022/10/2-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Badminton",
+    "price": 1400,
+    "imgUrl": "https://media.istockphoto.com/id/1225607817/vector/badminton-racket-drawing-in-a-white-background-for-assembly-or-creates-teaching-material-for.jpg?s=170667a&w=0&k=20&c=6Ojk3OxKNN2PdmL6bXpb7kL0rI5w_1UM7gs-dLr8g1g="
+  },
+  {
+    "id": 5,
+    "name": "Football",
+    "price": 1400,
+    "imgUrl": "https://media.istockphoto.com/id/537519864/vector/soccer-ball-on-white-background-with-shadow.jpg?s=612x612&w=0&k=20&c=yHfLQ59o2sL3C12rEZXoT4GpjQmJtEq9NYV64ZFDK7A="
+  }
+]
