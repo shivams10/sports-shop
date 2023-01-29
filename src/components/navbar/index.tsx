@@ -8,10 +8,10 @@ export function Navbar() {
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3 py-3">
       <Container>
         <span
-          className="navbar-brand mb-0 h1"
-          style={{ color: "rgb(7, 146, 146)" }}
+          className="navbar-brand mb-0 h1 px-3 py-2"
+          style={{ color: "white", backgroundColor:"rgb(7, 146, 146)", borderRadius:"10px" }}
         >
-          Shopping Cart
+          Sports Store
         </span>
         <Nav>
           <Nav.Link className="mx-2" to="/" as={NavLink}>
@@ -28,9 +28,7 @@ export function Navbar() {
               width: "3rem",
               height: "2.5rem",
               position: "relative",
-              background: "transparent",
-              color: "rgb(7, 146, 146)",
-              border: "none",
+              borderRadius:"30px"
             }}
           >
             <svg

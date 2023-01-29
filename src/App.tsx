@@ -5,10 +5,12 @@ import { Home } from "./pages/home";
 import { Store } from "./pages/store";
 import { About } from "./pages/about";
 import { Navbar } from "./components/navbar";
+import { CartProvider } from "./context/cartContext";
+import "./App.css"
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Navbar />
       <Container className="mb-4">
         <Routes>
@@ -17,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </Container>
-    </>
+    </CartProvider>
   );
 }
 
