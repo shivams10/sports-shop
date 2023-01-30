@@ -23,3 +23,7 @@ button:hover{
     background-color: white!important;
     border: 2px solid red!important;
 }
+
+.about-heading{
+    color: teal;
+}
