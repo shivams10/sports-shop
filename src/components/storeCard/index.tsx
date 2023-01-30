@@ -20,7 +20,7 @@ export function StoreCard({ id, name, price, imgUrl }: StoreCardProps) {
   const quantity = getItemQuantity(id);
 
   return (
-    <Card className="h-100">
+    <Card className="h-100"> 
       <Card.Img
         variant="top"
         src={imgUrl}
@@ -62,6 +62,7 @@ export function StoreCard({ id, name, price, imgUrl }: StoreCardProps) {
                 size="sm"
                 style={{ padding: "5px 52px" }}
                 onClick={() => removeFromCart(id)}
+                className="remove-button"
               >
                 Remove
               </Button>

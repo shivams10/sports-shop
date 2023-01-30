@@ -7,3 +7,19 @@ button:hover{
     background-color: rgb(246, 251, 251)!important;
     color:teal!important;
 }
+
+.btn-outline-danger,.remove-button{
+    color: white!important;
+    background-color: red!important;
+    border: 1px solid red!important;
+}
+
+.remove-button:hover,.btn-outline-danger:hover{
+    color: red!important;
+    background-color: white!important;
+}
+
+.btn-close{
+    background-color: white!important;
+    border: 2px solid red!important;
+}
