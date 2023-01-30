@@ -21,9 +21,6 @@ export function Navbar() {
         </span>
         <Nav>
           <Nav.Link className="mx-2" to="/" as={NavLink}>
-            Home
-          </Nav.Link>
-          <Nav.Link className="mx-2" to="/store" as={NavLink}>
             Store
           </Nav.Link>
           <Nav.Link className="mx-2" to="/about" as={NavLink}>
